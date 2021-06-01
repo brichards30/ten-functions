@@ -70,6 +70,7 @@ function and(value) {
 }
 
 function concat(value) {
+
     return value + value;
 }
 /*
