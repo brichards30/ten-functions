@@ -33,9 +33,9 @@ function not(value) {
     return !value;
 }
 
-/*function addOne(value) {
+function addOne(value) {
     return value++;
-}*/
+}
 /*  addOne(0)                    // 1
  addOne(2)                    // 3
  addOne(-5)                   // -4
@@ -62,7 +62,7 @@ function or(value) {
 }
 
 function isEqual(value) {
-    return value === "value";
+    return value == value;
 } // having issues
 
 function and(value) {
