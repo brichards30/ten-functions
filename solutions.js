@@ -52,8 +52,8 @@ function isEven(value) {
     return value % 2 === 0;
 }
 
-function isIdentical(value) {
-    return value === value;
+function isIdentical(value1, value2) {
+    return value1 === value2;
 
 }
 
@@ -61,17 +61,17 @@ function or(value) {
     return value || value;
 }
 
-function isEqual(value) {
-    return value == value;
+function isEqual(value1, value2) {
+    return value1 == value2;
 } // having issues
 
 function and(value) {
     return value && value;
 }
 
-function concat(value) {
+function concat(value1, value2) {
 
-    return value + value;
+    return value1 + value2;
 }
 /*
 
