@@ -34,20 +34,9 @@ function not(value) {
 }
 
 function addOne(value) {
-    return value++;
+    return Number(value) +1;
 }
-/*  addOne(0)                    // 1
- addOne(2)                    // 3
- addOne(-5)                   // -4
- addOne(5.789)                // 6.789
- addOne(Infinity)             // Infinity
- addOne("2")                  // 3
- addOne("0")                  // 1
- addOne("banana")             // NaN
- addOne(true)                 // NaN
- addOne(NaN)                  // NaN
 
- HAVING ISSUES*/
 function isEven(value) {
     return value % 2 === 0;
 }
@@ -57,20 +46,19 @@ function isIdentical(value1, value2) {
 
 }
 
-function or(value) {
-    return value || value;
+function or(value1, value2) {
+    return value1 || value2;
 }
 
 function isEqual(value1, value2) {
     return value1 == value2;
-} // having issues
+}
 
 function and(value) {
     return value && value;
 }
 
 function concat(value1, value2) {
-
     return value1 + value2;
 }
 /*
