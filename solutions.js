@@ -38,12 +38,11 @@ function addOne(value) {
 }
 
 function isEven(value) {
-    return value % 2 === 0;
+    return value % 2 == 0;
 }
 
 function isIdentical(value1, value2) {
     return value1 === value2;
-
 }
 
 function or(value1, value2) {
@@ -54,13 +53,11 @@ function isEqual(value1, value2) {
     return value1 == value2;
 }
 
-function and(value) {
-    return value && value;
+function and(value1, value2) {
+    return value1 && value2;
 }
 
 function concat(value1, value2) {
-    return value1 + value2;
+    var value = value1.toString() + value2.toString();
+    return value;
 }
-/*
-
- */
